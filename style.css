@@ -1,0 +1,289 @@
+/*
+CSS para Atividade MAPA - EAD Unicesumar 2022.
+SUPERIOR DE TECNOLOGIA EM SISTEMAS PARA INTERNET
+Disciplina: Back End I.
+R.A.: 1941679-5
+*/
+
+/* 
+    Author     : Berg Moura
+    Version    : 1.0
+*/
+
+body {
+    background-color: azure;
+}
+
+.topo {
+    background-color: #BB2122;
+    border-bottom: 8px solid;
+    border-color: #EDB51D;
+    padding: 30px 0;
+}
+
+.topo_center {
+    width: 1000px;
+    height: 100px;
+    margin: 0 auto;
+    padding: 20px 10px;
+
+}
+
+.logo {
+    width: 300px;
+    float: left;
+    padding: 10px 10px;
+    margin-top: 10px;
+}
+
+.menu {
+    width: 400px;
+    float: left;
+    margin: 45px 20px 0 30px;
+    text-align: center;
+}
+
+.menu ul {
+    margin: 0;
+    padding: 0;
+    display: inline;
+
+}
+
+.menu ul li {
+    list-style: none;
+    display: inline;
+    padding: 10px 15px;
+}
+
+.menu ul li a {
+    color: aliceblue;
+    font-size: 22px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Heebo', sans-serif;
+}
+
+.menu ul li a:hover {
+    color: #EDB51D;
+}
+
+.social-media {
+    width: 150px;
+    float: left;
+    margin-top: 35px;
+    text-align: center;
+}
+
+.social-media ul{
+    margin: 0;
+    padding: 0;
+}
+
+.social-media ul li {
+    list-style: none;
+    display: inline;
+
+}
+
+.banner {
+    margin: 10px auto;
+    text-align: center;
+    
+}
+
+.marmitas {
+    width: 1100px;
+    margin: 0 auto 10px;
+    text-align: center;
+
+}
+
+.marmitas h1 {
+    text-align: center;
+    padding: 20px 10px 13px 10px;
+    font-size: 35px;
+    font-family: 'Heebo', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    color: #BB2122;
+    background-color: #EDB51D;
+}
+
+.marmitas li {
+    width: 300px;
+    padding: 5px;
+    float: left;
+    list-style: none;
+    border: 1px solid;
+    padding: 10px;
+    border-color: #FDD918;
+    margin-left: 15px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.lista-marmitas img {
+    border: 5px solid;
+    border-radius: 5px;
+    border-color: #EDB51D;
+    width: 290px;
+}
+
+.marmitas h4 {
+   font-family: 'Heebo', sans-serif;
+   font-size: 28px;
+   letter-spacing: -1px;
+   text-align: center;
+   margin-top: 15px;
+   margin-bottom: 1px;
+}
+
+.descricao {
+    font-size: 18px;
+    font-family: 'Heebo', sans-serif;
+    margin-top: 5px;
+}
+
+.preco {
+   font-family: 'Heebo', sans-serif;
+   font-size: 35px;
+   font-weight: bold;
+   letter-spacing: -3px;
+   text-align: center;
+
+}
+
+.lista-marmitas ul li a {
+    text-decoration: none;
+    font-family: 'Heebo', sans-serif;
+    letter-spacing: -1px;
+    text-transform: uppercase;
+    color: #AF1106;
+}
+
+.lista-marmitas ul li a:hover {
+    color: #F82000;
+
+}
+
+/****** Lista Interna ******/
+
+.marmitas-internas {
+    width: 1000px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.img-marmita {
+    width: 500px;
+    float: left;
+    padding: 25px 0;
+    border: 2px solid;
+    border-color: #EDB51D;
+    border-radius: 5px;
+    margin-bottom: 50px;
+}
+
+.info {
+    width: 450px;
+    padding: 10px;
+    float: left;
+}
+
+.info ul li {
+    list-style: none;
+    font-family: 'Heebo', sans-serif;
+    font-size: 25px;
+    text-align: left;
+    letter-spacing: -1px;
+    
+}
+
+.info ul li h3 {
+    font-family: 'Heebo', sans-serif;
+    font-size: 40px;
+    letter-spacing: -1px;
+    color: #BB2122;
+    margin-bottom: 15px;
+}
+
+.info h2 {
+    font-family: 'Heebo', sans-serif;
+    font-size: 25px;
+    letter-spacing: -1px;
+}
+
+.btn-voltar {
+    width: 200px;
+    margin: 0 auto;
+    clear: both;
+    display: block;
+    padding: 15px;
+    text-align: center;
+    background-color: #FDD918;
+    margin-bottom: 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Heebo', sans-serif;
+    font-size: 20px;
+    letter-spacing: -1px;
+    border-radius: 5px;
+}
+
+.btn-voltar:hover {
+    color: #AF1106;
+    background-color: #FDD918;
+    font-weight: bold;
+}
+
+.pagamento {
+    text-align: center;
+    margin-top: 10px;
+    height: 50px;
+    padding: 20px 0;
+}
+
+.contato {
+    text-align: center;
+    display: block;
+    margin-top: 25px;
+    clear: both;
+    font-family: 'Heebo', sans-serif;
+    font-size: 20px;
+    padding-top: 15px;
+    color: #F82000;
+}
+
+.clear {
+    clear: both;
+}
+
+.footer {
+    background-color: #BB2122;
+    padding: 5px 5px;
+    height: 48px;
+    color: #E8D8DE;
+    font-family: 'Heebo', sans-serif;
+    font-size: 18px;
+    margin-top: 50px;
+}
+
+.footer-center {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.copyright {
+    width: 480px;
+    float: left;
+    padding: 15px 10px;
+    text-align: center;
+}
+
+.credito {
+    width: 480px;
+    float: right;
+    padding: 15px 10px;
+    text-align: center;
+}
